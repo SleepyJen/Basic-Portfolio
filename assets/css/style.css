@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+}
+header{
+    height: 11.3vh;
+    background-color: aliceblue;
+}
+.name{
+    background-color: rgb(74, 185, 189);
+    display: table;
+    width: 15%;
+    margin-left: 15%;
+    margin-top: 12px;
+    height: 70px;
+    float: left;
+}
+.name-card{
+    margin-left: 10px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: aliceblue;
+}
+.links{
+    display: table;
+    float: right;
+    width: 15%;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: 9vh;
+}
+.link-card{
+    display: table-cell;
+    padding: 10px;
+    vertical-align: middle;
+    text-decoration: none;
+    color: gray;
+}
+
+body{
+    background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+main{
+    position: relative;
+    min-height: 80vh;
+}
+
+.about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 900px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+#about-tag{
+    height: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(84, 210, 214);
+}
+
+.below-about{
+    height: 2px;
+    margin-left: 20px;
+    width: 92%;
+    background-color: rgba(184, 182, 182, 0.774);
+}
