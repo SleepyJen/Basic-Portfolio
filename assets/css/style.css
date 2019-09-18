@@ -10,7 +10,7 @@ header{
     display: table;
     width: 15%;
     margin-left: 15%;
-    margin-top: 12px;
+    margin-top: 10px;
     height: 70px;
     float: left;
 }
@@ -73,4 +73,26 @@ main{
     margin-left: 20px;
     width: 92%;
     background-color: rgba(184, 182, 182, 0.774);
+}
+#pic{
+    height: 200px;
+    width: 200px;
+    float: left;
+    padding: 10px;
+}
+.para{
+    text-indent: 15px;
+    line-height: 30px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: grey;
+}
+
+.footer{
+    height: 10vh;
+    background-color: rgb(74, 185, 189);
+}
+
+.above-footer{
+    height: 5px;
+    background-color: rgb(143, 142, 142);
 }
