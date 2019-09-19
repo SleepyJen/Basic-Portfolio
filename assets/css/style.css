@@ -3,7 +3,7 @@
 }
 header{
     height: 11.3vh;
-    background-color: aliceblue;
+    background-color: rgb(240, 248, 255);
 }
 .name{
     background-color: rgb(74, 185, 189);
@@ -37,13 +37,16 @@ header{
     vertical-align: middle;
     text-decoration: none;
     color: gray;
+    transition: all 0.15s ease-in;
 }
 
 .link-card:hover{
     transform: translate(2px, -4px);
+    text-shadow: -1px -1px black;
 }
 
 .body{
+    position: relative;
     background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
     background-size: cover;
     background-position: center;
@@ -53,6 +56,7 @@ header{
 main{
     position: relative;
     min-height: 80vh;
+    margin-bottom: 140px;
 }
 
 .title{
@@ -97,10 +101,20 @@ main{
 }
 
 .footer{
-    height: 10vh;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+    height: 70px;
     background-color: rgb(74, 185, 189);
+    text-align: center;
+    display: table;
 }
-
+.bot{
+    color: rgb(92, 92, 92);
+    padding-top: 40px;
+    font-size: 10px;
+}
 .above-footer{
     height: 5px;
     background-color: rgb(143, 142, 142);
@@ -109,6 +123,7 @@ main{
 .port-main{
     position: relative;
     min-height: 80vh;
+    margin-bottom: 140px;
 }
 
 .port-about-me{
@@ -146,6 +161,24 @@ main{
 }
 
 #RockPaperScissor{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#ShoppingUI{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#solar{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#Drawing{
     position: absolute;
     height: 200px;
     width: 200px;
