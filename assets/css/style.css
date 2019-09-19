@@ -41,7 +41,7 @@ header{
 }
 
 .link-card:hover{
-    transform: translate(2px, -4px);
+    transform: translate(2px, -3px);
     text-shadow: -1px -1px black;
 }
 
@@ -152,6 +152,13 @@ main{
     margin-top: 70%;
     text-align: center;
     padding-top: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.border-name:hover{
+    transform: translate(2px, -3px);
+    text-shadow: -1px -1px grey;
 }
 
 #guessing{
@@ -182,4 +189,50 @@ main{
     position: absolute;
     height: 200px;
     width: 200px;
+}
+
+.contact-main{
+    position: relative;
+    min-height: 80vh;
+    margin-bottom: 140px;
+}
+
+.contact-about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 800px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.contact{
+    margin-left: 22px;
+    margin-top: 10px;
+}
+
+.input{
+    margin-left: 20px;
+    width: 90%;
+    padding: 7px;
+}
+#input-message{
+    border-color: rgb(199, 196, 196);
+}
+
+.button{
+    margin-left: 22px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    border-radius: 2px;
+    font-size: 15px;
+    background-color: rgb(74, 185, 189);
+    color: rgb(83, 81, 81);
+}
+
+.button:hover{
+    translate: transform(2px, -3px);
 }
