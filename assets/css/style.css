@@ -18,8 +18,9 @@ header{
     margin-left: 10px;
     display: table-cell;
     vertical-align: middle;
-    padding-left: 10px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding-left: 15px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
     color: aliceblue;
 }
 .links{
@@ -38,7 +39,11 @@ header{
     color: gray;
 }
 
-body{
+.link-card:hover{
+    transform: translate(2px, -4px);
+}
+
+.body{
     background: url('/assets/images/philipp-berndt-5i0GnoTTjSE-unsplash.jpg');
     background-size: cover;
     background-position: center;
@@ -50,18 +55,21 @@ main{
     min-height: 80vh;
 }
 
+.title{
+    margin-left: 10px;
+}
+
 .about-me{
     position: absolute;
     min-height: 400px;
-    width: 900px;
+    width: 960px;
     background-color: white;
     left: 20%;
     margin-top: 30px;
-    padding-left: 10px;
-    margin-right: 20px;
+    margin-right: 200px;
 }
 
-#about-tag{
+.about-tag{
     height: 60px;
     display: table-cell;
     vertical-align: middle;
@@ -85,6 +93,7 @@ main{
     line-height: 30px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: grey;
+    padding: 10px;
 }
 
 .footer{
@@ -95,4 +104,49 @@ main{
 .above-footer{
     height: 5px;
     background-color: rgb(143, 142, 142);
+}
+
+.port-main{
+    position: relative;
+    min-height: 80vh;
+}
+
+.port-about-me{
+    position: absolute;
+    min-height: 400px;
+    width: 800px;
+    background-color: white;
+    left: 20%;
+    margin-top: 30px;
+    margin-right: 200px;
+}
+
+.boxes{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    display: inline-block;
+}
+
+.border-name{
+    position: relative;
+    height: 30px;
+    width: 100%;
+    background-color: rgb(74, 185, 189);
+    float:right;
+    margin-top: 70%;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#guessing{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+}
+
+#RockPaperScissor{
+    position: absolute;
+    height: 200px;
+    width: 200px;
 }
