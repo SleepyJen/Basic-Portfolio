@@ -9,7 +9,7 @@ header{
     background-color: rgb(74, 185, 189);
     display: table;
     width: 15%;
-    margin-left: 15%;
+    margin-left: 20%;
     margin-top: 10px;
     height: 70px;
     float: left;
@@ -70,7 +70,7 @@ main{
     background-color: white;
     left: 20%;
     margin-top: 30px;
-    margin-right: 200px;
+    margin-right: 20%;
 }
 
 .about-tag{
